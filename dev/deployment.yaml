@@ -15,6 +15,6 @@ spec:
       containers:
       - name: myapp
         imagePullPolicy: Always
-        image: relaxed1/argocd-app:v1
+        image: relaxed1/argocd-app:v2
         ports:
         - containerPort: 80
